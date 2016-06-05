@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title">Display Movies:</string>
+    <string name="key">Display Movies:</string>
+    <string name="default_type">popularity.desc</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="removed_from_favorites">Removed from Favorites</string>
+    <string name="added_to_favorites">Added to Favorites</string>
+
+    <string name="favorite">Add</string>
+    <string name="Delete">Remove</string>
+    <string name="date">Date</string>
+    <string name="rate">Rate</string>
+    <string name="overview">OverView</string>
+    <string name="author">Author</string>
+    <string name="comment">Comment</string>
+
+
+
+    <!-- Label for the select movies preference [CHAR LIMIT=30] -->
+    <string name="pref_movie_label">Select Movies By </string>
+
+    <!-- Label for popular option in select movies by  preference [CHAR LIMIT=25] -->
+    <string name="pref_movie_label_pop">Popular Movies</string>
+
+    <!-- Label for rated option in select movies by preference [CHAR LIMIT=25] -->
+    <string name="movie_label_high">Highly rated</string>
+
+    //for favorite
+    <string name="favorite_label">Favorites</string>
+
+
+    <!-- Key name for select movies by preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_movie_key" translatable="false">Select Movies By</string>
+
+    <!-- Value in SharedPreferences for select movies by popular option [CHAR LIMIT=NONE] -->
+    <string name="pref_movie_pop" translatable="false">Popular Movies</string>
+
+    <!-- Value in SharedPreferences for select movies by highly option [CHAR LIMIT=NONE] -->
+    <string name="pref_movies_high" translatable="false" >Highly Rated</string>
+    //for favorite
+    <string name="pref_favorite" translatable="false" > Favorites</string>
+
+
+
+    <string name="title_activity_detailed">DetailedActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    !-- movie detail-->
+    <string name="title_activity_movie_details">Movie</string>
+    <string name="rating_denominator">/10</string>
+    <string name="trailers">Trailers</string>
+    <string name="reviews">Reviews</string>
+    <string name="share_trailer">Share Trailer</string>
+
+    <string name="title_activity_review">Review</string>
+
+    <!-- Content descriptions for accessibility -->
+    <string name="content_desc_movie_poster">Movie poster</string>
+    <string name="content_desc_backdrop_image">Movie backdrop image</string>
+    <string name="content_desc_video_thumbnail">Video thumbnail</string>
+
+</resources>

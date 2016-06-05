@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_movie_options">
+        <item>@string/pref_movie_label_pop</item>
+        <item>@string/movie_label_high</item>
+        <item>@string/favorite_label</item>
+    </string-array>
+
+    <string-array name="pref_movie_values">
+        <item>@string/pref_movie_pop</item>
+        <item>@string/pref_movies_high</item>
+        <item>@string/pref_favorite</item>
+    </string-array>
+
+</resources>
